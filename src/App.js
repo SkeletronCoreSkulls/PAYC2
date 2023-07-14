@@ -78,16 +78,10 @@ export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
   background-color: var(--accent);
   width: 200px;
-  @media (min-width: 900px) {
-    width: 220px;
-  }
   @media (min-width: 1000px) {
     width: 320px;
   }
-  @media (min-width: 2500px) {
-    width: 420px;
-  }
-  @media (min-width: 1400px) {
+  @media (min-width: 2000px) {
     width: 520px;
   }
   transition: width 0.5s;
