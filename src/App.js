@@ -97,11 +97,11 @@ export const StyledImg2 = styled.img`
   
   background-color: var(--accent);
   width: 200px;
-  @media (min-width: 900px) {
-    width: 200px;
-  }
   @media (min-width: 1000px) {
-    width: 250px;
+    width: 320px;
+  }
+  @media (min-width: 2000px) {
+    width: 520px;
   }
   transition: width 0.5s;
 `;
