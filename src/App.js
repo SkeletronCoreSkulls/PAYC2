@@ -84,6 +84,12 @@ export const StyledImg = styled.img`
   @media (min-width: 1000px) {
     width: 320px;
   }
+  @media (min-width: 2500px) {
+    width: 420px;
+  }
+  @media (min-width: 1400px) {
+    width: 520px;
+  }
   transition: width 0.5s;
 `;
 
