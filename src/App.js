@@ -243,7 +243,7 @@ function App() {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 20,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
               }}
@@ -256,9 +256,6 @@ function App() {
            
           </s.Container>
           
-          <s.SpacerLarge />
-          
-         <s.SpacerLarge />
         </ResponsiveWrapper>
         <s.SpacerMedium />
       </s.Container>
