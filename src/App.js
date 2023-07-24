@@ -250,6 +250,7 @@ function App() {
             >
               
               WE HAVE SOLDOUT!
+ Get your Ape on Secondary Market
             </s.TextTitle>
             
            
