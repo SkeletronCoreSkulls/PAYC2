@@ -219,7 +219,6 @@ function App() {
         
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
         
-          <s.SpacerLarge />
           <s.Container
             flex={2}
             jc={"center"}
@@ -250,10 +249,17 @@ function App() {
             >
               
               WE HAVE SOLDOUT!
- Get your Ape on Secondary Market
             </s.TextTitle>
             
-           
+           <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 13,
+                color: "var(--accent-text)",
+              }}
+            >
+   Get your Ape on Secondary Market
+            </s.TextTitle>
           </s.Container>
           
         </ResponsiveWrapper>
